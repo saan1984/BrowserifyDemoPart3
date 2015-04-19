@@ -1,0 +1,12 @@
+{
+  "name": "BrowserifyDemoPart3",
+  "version": "0.0.0",
+  "description": "BrowserifyDemoPart3",
+  "scripts":{
+    "build": "browserify demo.js -o bundle.js",
+    "watch": "watchify demo.js -o bundle.js --debug --verbose"
+  },
+  "main": "bundle.js",
+  "author": "Sandeep",
+  "license": "ISC"
+}
